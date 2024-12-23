@@ -1,0 +1,26 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+<!--BOX CLASS已经包含所有盒子，所以不需要再设置其他盒子的padding-->
+#outer-box{
+  background-color: purple;
+  
+}
+.inner-box{
+  background-color: red;
+}
+<!--
+红盒子需要比蓝色盒子的位置低，因为都是class 同specific，要看位置
+红盒子有两个class名字 
+-->
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+.white-text{
+  color: white;
+}
